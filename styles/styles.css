@@ -90,7 +90,7 @@ li:hover{
     align-items: center;
     gap: 30px;
     width: 90%;
-    margin: 90px auto;
+    margin: 80px auto;
     background-color: rgba(255, 144, 14, 0.10);
     padding: 20px;
 }
@@ -98,3 +98,8 @@ li:hover{
 
 
 
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+}
